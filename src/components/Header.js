@@ -1,11 +1,12 @@
 import React from "react";
 
+
 const Header = props => {
   const { search, onInputChange, onSearchClick } = props;
   return (
     <div className="jumbotron">
       <h1 className="display-1">
-        <i className="material-icons brand-icon my-1 mt-1">fastfood</i> Food Searching Recipe
+        <i className="material-icons brand-icon my-1 mt-1">fastfood</i> Food Recipes
       </h1>
       <div class="input-group w-50 mx-auto mt-4">
         <input
